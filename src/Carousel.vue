@@ -76,7 +76,7 @@ export default {
       currentPage: 0,
       dragging: false,
       dragMomentum: 0,
-      dragOffset: 0,
+      dragOffset: 1,
       dragStartY: 0,
       dragStartX: 0,
       isTouch: typeof window !== "undefined" && "ontouchstart" in window,
