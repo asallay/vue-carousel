@@ -2,8 +2,8 @@
   <section class="VueCarousel">
     <div class="VueCarousel-wrapper"
       ref="VueCarousel-wrapper">
-      <div ref="VueCarousel-inner inner-carousel"
-        class="VueCarousel-inner inner"
+      <div ref="VueCarousel-inner"
+        class="VueCarousel-inner"
         role="listbox"
         :style="{
           'transform': `translate3d(${currentOffset}px, 0, 0)`,
