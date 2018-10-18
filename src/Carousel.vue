@@ -2,7 +2,7 @@
   <section class="VueCarousel">
     <div class="VueCarousel-wrapper"
       ref="VueCarousel-wrapper">
-      <div ref="VueCarousel-inner"
+      <div ref="VueCarousel-inner inner-carousel"
         class="VueCarousel-inner inner"
         role="listbox"
         :style="{
