@@ -11,9 +11,7 @@
           'ms-flex-preferred-size': `${slideWidth}px`,
           'webkit-flex-basis': `${slideWidth}px`,
           'flex-basis': `${slideWidth}px`,
-          'visibility': slideWidth ? 'visible' : 'hidden',
-          'padding-left': `${padding}px`,
-          'padding-right': `${padding}px`
+          'visibility': slideWidth ? 'visible' : 'hidden'
         }">
         <slot></slot>
       </div>
